@@ -1,0 +1,35 @@
+
+
+Manual Testing – Unified Test Plan (Cursor AI + Git)
+
+1. Objective  
+   - Manually validate critical business workflows, smoke scenarios, and regression coverage across major browsers to ensure stability and functional correctness.  
+   - Author, review, and optimize test cases using Cursor AI with Git-backed traceability.
+
+2. Manual Testing Approach  
+   - Scope: critical end-to-end workflows, smoke per deployment, regression suites, basic negative checks, and cross-browser behavior validation.  
+   - Test design: leverage Cursor AI for ideation and formatting; capture Preconditions, Steps, and Expected Outcomes; review collaboratively.  
+   - Repository: store approved cases in Git (Markdown) for history and audits.  
+   - Testing types covered: Smoke, Functional, Regression, Negative, UI/UX, and UI-driven integration validation.
+
+3. Tools & Repository Management  
+   - AI assistance: Cursor AI.  
+   - Test case storage: Cursor AI workspace with Git sync.  
+   - Version control: Git.  
+   - Browsers: Chrome, Edge, Firefox.  
+   - Documentation format: Markdown .
+
+4. Test Data Strategy  
+   - Use static data sets for consistency.  
+   - Store curated data in Git and reference within each test case or environment file.  
+   - Reset/validate data before major regression cycles to prevent contamination.
+
+5. Execution & Reporting  
+   - Execute manually on target browsers/environments defined per release.  
+   - Capture results in Git-tracked artifacts.  
+   - Use Cursor AI summaries for quick status notes when needed.
+
+6. Expected Outcome  
+   - High-quality, fully documented manual suite aligned with business priorities.  
+   - Traceable test assets with AI-assisted design and faster reviews.  
+   - Improved defect detection, lower production issues, and consistent reporting discipline.

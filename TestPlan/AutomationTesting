@@ -1,0 +1,39 @@
+Automation Testing – Unified Test Plan (Playwright + TypeScript)
+
+1. Objective  
+   - Automate regression and critical business workflows using Playwright with JavaScript/TypeScript to ensure stable, repeatable, and fast validation of key functionalities across major browsers.
+
+2. Automation Approach  
+   - Identify high-priority automatable scenarios.  
+   - Create Playwright test scripts.  
+   - Execute suites across Chrome, Edge, and Firefox.  
+   - Cover Smoke, Regression, and basic Negative test cases.
+
+3. Framework & Tooling  
+   - Tool: Playwright  
+   - Language: JavaScript/TypeScript  
+   - Runner: Playwright Test Runner
+
+4. Test Data Strategy  
+   - Use static test data.  
+   - Maintain pre-created users: Admin, Vendor.
+
+5. Execution Environment  
+   - Local machine.  
+   - Browsers: Chrome, Edge, Firefox.
+
+6. Reporting  
+   - Playwright HTML reports.  
+   - Defect logging in JIRA.
+
+7. Entry & Exit Criteria  
+   - Entry: Stable build and available test data.  
+   - Exit: All critical tests executed.
+
+8. Risks & Mitigation  
+   - UI changes: rely on stable selectors.  
+   - Data issues: keep well-defined static data.
+
+9. Expected Outcome  
+   - Stable automation framework.  
+   - Faster regression testing.

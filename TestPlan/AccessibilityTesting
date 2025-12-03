@@ -1,0 +1,39 @@
+📝 Accessibility Testing – Unified Test Plan (axe DevTools + JAWS) 
+
+1. Objective 
+
+To test the entire portal for WCAG 2.1 Level AA and Section 508 compliance using a single accessibility check that combines axe DevTools (automated) and JAWS (manual screen reader) validations. 
+
+2. Test Approach – Single Accessibility Check 
+
+For each page: 
+
+Open page in Edge browser. 
+
+Run axe DevTools: 
+
+Scan for missing alt text, ARIA issues, low contrast, missing form labels, heading structure issues. 
+
+Export results for documentation. 
+
+Use JAWS screen reader: 
+
+Validate reading order, alt text announcements, form labels, error messages, ARIA roles, dynamic content, keyboard-only navigation. 
+
+Manual visual checks: 
+
+Color contrast, captions for multimedia, consistent layout, plain language content. 
+
+Log all issues in a single report with severity and WCAG references. 
+
+Shape 
+
+3. Expected Outcome 
+
+One combined accessibility report per page. 
+
+Both automated (axe) and manual (JAWS) issues documented together. 
+
+Clear fix recommendations mapped to WCAG 2.1 AA standards. 
+
+ 
