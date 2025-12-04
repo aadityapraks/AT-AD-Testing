@@ -7,7 +7,8 @@ Automation Testing – Unified Test Plan (Playwright + TypeScript)
    - Identify high-priority automatable scenarios.  
    - Create Playwright test scripts.  
    - Execute suites across Chrome, Edge, and Firefox.  
-   - Cover Smoke, Regression, and basic Negative test cases.
+   - Cover Smoke, Sanity, Regression, and basic Negative test cases.
+   - Parallel execution of test case
 
 3. Framework & Tooling  
    - Tool: Playwright  
