@@ -1,5 +1,3 @@
-
-
 Manual Testing – Unified Test Plan (Cursor AI + Git)
 
 1. Objective  
@@ -29,7 +27,11 @@ Manual Testing – Unified Test Plan (Cursor AI + Git)
    - Capture results in Git-tracked artifacts.  
    - Use Cursor AI summaries for quick status notes when needed.
 
-6. Expected Outcome  
+6.Regression Testing
+    - Regression testing will be executed before every new sprint release and prior to each production deployment.
+    - The purpose is to ensure that new changes do not impact existing stable functionalities.
+
+7. Expected Outcome  
    - High-quality, fully documented manual suite aligned with business priorities.  
    - Traceable test assets with AI-assisted design and faster reviews.  
    - Improved defect detection, lower production issues, and consistent reporting discipline.

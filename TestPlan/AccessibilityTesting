@@ -8,7 +8,7 @@ To test the entire portal for WCAG 2.1 Level AA and Section 508 compliance using
 
 For each page: 
 
-Open page in Edge browser. 
+Open page in Chrome, Edge browser. 
 
 Run axe DevTools: 
 
@@ -22,11 +22,18 @@ Validate reading order, alt text announcements, form labels, error messages, ARI
 
 Manual visual checks: 
 
-Color contrast, captions for multimedia, consistent layout, plain language content. 
+Captions for multimedia, consistent layout, plain language content. 
 
 Log all issues in a single report with severity and WCAG references. 
 
-Shape 
+Responsive Accessibility Validation :
+
+Verify accessibility behavior across different screen sizes and resolutions (desktop, tablet, mobile viewports).
+
+Ensure that screen reader navigation, focus order, and keyboard accessibility remain consistent across responsive breakpoints.
+
+Validate that no accessibility controls, labels, or interactive elements are hidden or inaccessible in responsive views.
+
 
 3. Expected Outcome 
 
