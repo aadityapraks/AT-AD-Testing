@@ -4,7 +4,8 @@ Automation Testing – Unified Test Plan (Playwright + TypeScript)
    - Automate regression and critical business workflows using Playwright with JavaScript/TypeScript to ensure stable, repeatable, and fast validation of key functionalities across major browsers.
 
 2. Automation Approach  
-   - Identify high-priority automatable scenarios.  
+   - Identify high-priority automatable scenarios. 
+   - Generate test cases using Cursor AI for faster and standardized coverage. 
    - Create Playwright test scripts.  
    - Execute suites across Chrome, Edge, and Firefox.  
    - Cover Smoke, Sanity, Regression, and basic Negative test cases.
