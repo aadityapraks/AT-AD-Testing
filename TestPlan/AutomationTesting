@@ -37,3 +37,12 @@ Automation Testing – Unified Test Plan (Playwright + TypeScript)
 9. Expected Outcome  
    - Stable automation framework.  
    - Faster regression testing.
+
+10. Tag-Based Test Execution 
+
+Test cases will be annotated with execution tags such as:
+
+@smoke – for build validation
+@regression – for full regression cycles
+@negative – for negative scenarios
+@module-name – for module-wise selective execution
