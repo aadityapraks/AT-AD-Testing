@@ -1,23 +1,24 @@
-1. Use the Playwright MCP Server to navigate to the website https://ui-qa.collectlogic.net/login. Ensure that the MCP Server is actively handling the browser automation to validate its integration. Do not simulate the tests statically or bypass the MCP Server. All interactions must be routed through MCP.
+1. Use the Playwright MCP Server to navigate to the website https://credable-onboarding-ui-qa.byteridge.com/onboarded-suppliers. Ensure that the MCP Server is actively handling the browser automation to validate its integration. Do not simulate the tests statically or bypass the MCP Server. All interactions must be routed through MCP.
 
 2. Execute the scenarios whose details are mentioned bellow
 
-    Test Case File: test-cases/MFLP-8_Test_Cases.md
-    Test Case ids: MFLP8-TC2
+    Test Case File: test-cases/OJ-5
+    Test Case ids: 
 
 3. User credentials are in the test case file as part of Precondition.
 
+
 4. After the scenarios are validated:
 
-5. Close the browser.
+5. Close the browser..
 
 6. At the same time generate type script code using playwright with MCP integration to execute the scenarios
 
 7. Once you have the code gen through the MCP server, and use the code generated. Add the test case code and page objects code as per the details bellow. 
 
     Action: Update
-    Tests file: tests/test-MFLP8-TC1.spec.ts
-    Page Object File: page-objects/text-message-templates-page.ts
+    Tests file: tests/test-OJ-5-TC.spec.ts
+    Page Object File: page-objects/OJ-5page.ts
 
 8. In Point 7, if the action is Update, then update or append the test case in the existing files which is already mentioned in point 7.
 9. If the action is Create, then create the new files and add the test case code in the path mentioned in Point 7.
