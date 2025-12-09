@@ -1,0 +1,13 @@
+{
+  "name": "playwright-mcp-server",
+  "version": "1.0.0",
+  "description": "Playwright MCP Server Test Automation",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.42.1",
+    "playwright": "^1.42.1"
+  }
+} 

@@ -1,0 +1,21 @@
+As a software tester, write the comprehensive test cases for the user story details given bellow and make sure that the test cases are in detail and should be compatible or support for Automation using playwright MCP server whch we are going to do later.
+
+user stories path: user-stories/
+user story id: MFLP-8
+
+It should follow the test case template which should contain
+a. Test case id
+b. Test Name
+c. Steps
+d. Expected Result
+
+Also add a precondition as Login with given user details bellow
+
+user: ajayb@byterodge.com
+password: Welcome1#
+
+At the end of each test case add a post condition to logout the application
+
+Create the test case file in the path given bellow
+
+Test case path: test-cases/

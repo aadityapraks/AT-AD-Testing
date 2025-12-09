@@ -1,0 +1,33 @@
+1. Use the Playwright MCP Server to navigate to the website https://ui-qa.collectlogic.net/login. Ensure that the MCP Server is actively handling the browser automation to validate its integration. Do not simulate the tests statically or bypass the MCP Server. All interactions must be routed through MCP.
+
+2. Execute the scenarios whose details are mentioned bellow
+
+    Test Case File: test-cases/MFLP-8_Test_Cases.md
+    Test Case ids: MFLP8-TC1
+
+3. User credentials are in the test case file as part of Precondition.
+
+4. After the scenarios are validated:
+
+5. Close the browser.
+
+6. At the same time generate type script code using playwright with MCP integration to execute the scenarios
+
+7. Once you have the code gen through the MCP server, and use the code generated. Organize the project inside a parent folder named playwright-mcp-server which is already present.
+
+8. The folder structure must follow this format:
+
+playwright-mcp-server
+├── tests
+│   └── test-MFLP8-TC1.spec.ts
+├── page-objects
+│   └── text-message-templates-page.ts
+├── utils
+│   └── helpers.ts
+├── playwright.config.ts
+├── package.json
+└── README.md
+
+9. Save all files and dependecies inside playwright-mcp-server only. Do not place any files in the root directory. Also, use the page objects to store the locators/attributes, and actions of the page.
+10. If the files already exist, update the files with the new changes and do not create new files.
+11. Generate the code along with the page objects at time of execution. Scan the pages properly to get the locators and attributes.
