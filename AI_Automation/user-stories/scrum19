@@ -1,0 +1,84 @@
+As an approved AP on the PwD Catalog Portal,
+I want to upload details, images, and specifications of my product through an easy-to-use submission form,
+so that PwDs visiting the catalog can view accurate and engaging information about my product and determine if it meets their accessibility needs.
+ 
+Acceptance Criteria
+1.	Access to Product Upload
+o	The AP can access the “Product Upload” option from the AP Dashboard.
+o	Product upload is a tab selection in available in 4 tabs and have a dedicated section.
+2.	Following are the sections in “Upload New Product” flow.
+3.	Basic Product Information
+o	The form includes the following mandatory fields:
+	Product Name
+	Product Type - Device or Technology
+	Disability type- Mobility, Visual, Hearing, Speech, Cognitive, Multiple Disabilities
+	Disability percentage- 0-40%, 40-60%, 60-80%, 80-100%, All Ranges
+	Short Description (appears as summary text on the catalog listing card; limited to ~200 characters)- Along with option to generate with Gen AI “Assist with GenAI”
+	Detailed Description (appears on the product details page when a PwD user clicks the product)- Along with option to generate with Gen AI “Assist with GenAI”- refer Scrum-21 as well.
+o	Text fields support basic formatting (bullet points, paragraphs).
+4.	Product’s Unique Feature- Text box to describe unique feature of product, along with help icon to guide the vendor and with a option to generate with Gen AI “Assist with GenAI”- refer Figma. also covered in detail in Scrum- 32.
+5.	Buying Guide- For AP to add buying guide (with Gen AI assist) for PWDs- refer Figma.
+6.	Product Images- Also refer Scrum-23
+o	Vendors can upload:
+	One primary image (this appears as the thumbnail or highlighted image on the catalog card).
+	Up to 5 additional images showcasing product angles, usage, packaging, etc.
+o	Accepted formats: JPG, PNG.
+o	File size (5 MB) and dimension guidelines are clearly stated.
+o	Preview thumbnails are displayed for all uploaded images.
+o	Vendor can remove or replace any uploaded image before submission.
+o	Include tips and help icons to guide Vendor user- refer Figma.
+o	All Images should have option to add Alt Text including Primary image.
+7.	3D Mockup Images - maximum 3 images. Include Image tip- Refer Figma.
+8.	Demo Video- Also refer Scrum-23
+o	An optional field allows upload of a demo video file or embedding of a YouTube/Vimeo link.
+o	The video appears on the detailed product page in same media carousel.
+o	Video uploads are limited by file size and duration (as per platform policy).
+o	Include tips and help icons to guide Vendor user- refer Figma.
+9.	Specifications Section
+o	A structured section is provided for Technical and Accessibility Specifications, e.g.:
+	Dimensions
+	Weight
+	Material / Build Type
+	Power or Battery requirements (if applicable)
+	Accessibility features (voice control, tactile feedback, adjustable design, etc.)
+o	Fields can be free-text or key-value pairs, depending on design.
+o	“Generate Specifications”- GenAI assisted specifications.
+10.	Geographical Availability
+o	Vendor can specify availability as either:
+	“Pan-India” if product is available in entire country.
+	Search list of available geographies (e.g., states or cities).
+o	Multiple selections are allowed when “Specific Areas” is chosen.- refer Figma
+11.	Product Quantity
+o	Vendor can enter available quantity (numeric field).
+o	Optionally, a toggle for “Made to Order” if inventory is not fixed.
+o	Quantity updates should be editable later from the product management screen.
+12.	Additional Information- refer scrum- 26 as well
+o	Amazon Buy Link
+o	Product Website Link
+o	Price Range- with toggle-Exact price/Price range- refer Figma
+o	For exact price- one numeric field to enter amount in rupees.
+o	For Price range- two fields Max and Min- refer Figma.
+o	Tags/Metadata
+o	Other Links
+13.	Save as Draft-
+o	Vendor after filling all the details can also save the product as draft, using “Save as Draft button” available on left side of “Upload Product” button.
+o	In Draft product should also be visible in product management page in order to edit and upload the product finally.
+o	In draft product will not go for admin review.
+14.	Form Validation and Feedback
+o	All mandatory fields are validated before submission.
+o	Image and video file type/size checks occur before upload completion.
+o	On successful submission, vendor receives an on-screen confirmation message such as:
+“Your product has been submitted for review and will be published after approval.”
+o	An automated email confirmation is sent to the vendor.
+15.	Admin Workflow
+o	Submitted product enters “Pending Review” status in the admin dashboard.
+o	Admins can review, approve, or reject with comments.
+o	Once approved, the product becomes visible on the public PwD catalog page.
+16.	Accessibility & UI Compliance
+o	All labels, buttons, and media fields meet WCAG 2.1 AA accessibility standards.
+o	Each image field supports alternative text entry for screen readers.
+o	The form supports keyboard navigation and visual focus indicators.
+17.	Performance and System Handling
+o	Images and video uploads use progress indicators.
+o	Incomplete uploads or failed submissions show user-friendly error messages.
+

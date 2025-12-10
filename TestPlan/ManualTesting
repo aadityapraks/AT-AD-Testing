@@ -18,8 +18,7 @@ Manual Testing – Unified Test Plan (Cursor AI + Git)
    - Documentation format: Markdown .
 
 4. Test Data Strategy  
-   - Use static data sets for consistency.  
-   - Store curated data in Git and reference within each test case or environment file.  
+   - Use static and dynamic data sets for consistency.   
    - Reset/validate data before major regression cycles to prevent contamination.
 
 5. Execution & Reporting  
@@ -28,7 +27,7 @@ Manual Testing – Unified Test Plan (Cursor AI + Git)
    - Use Cursor AI summaries for quick status notes when needed.
 
 6.Regression Testing
-    - Regression testing will be executed before every new sprint release and prior to each production deployment.
+    - Tag based Regression testing will be executed before every new sprint release and prior to each production deployment.
     - The purpose is to ensure that new changes do not impact existing stable functionalities.
 
 7. Expected Outcome  

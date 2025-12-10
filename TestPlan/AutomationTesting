@@ -7,17 +7,16 @@ Automation Testing – Unified Test Plan (Playwright + TypeScript)
    - Identify high-priority automatable scenarios. 
    - Generate test cases using Cursor AI for faster and standardized coverage. 
    - Create Playwright test scripts.  
-   - Execute suites across Chrome, Edge, and Firefox.  
+   - Execute suites primarly on Chrome, Edge, and Firefox.  
    - Cover Smoke, Sanity, Regression, and basic Negative test cases.
    - Parallel execution of test case
 
 3. Framework & Tooling  
    - Tool: Playwright  
-   - Language: JavaScript/TypeScript  
-   - Runner: Playwright Test Runner
+   - Language: TypeScript  
 
 4. Test Data Strategy  
-   - Use static test data.  
+   - Use static and dynamic test data.  
    - Maintain pre-created users: Admin, Vendor.
 
 5. Execution Environment  
@@ -30,10 +29,10 @@ Automation Testing – Unified Test Plan (Playwright + TypeScript)
 
 7. Entry & Exit Criteria  
    - Entry: Stable build and available test data.  
-   - Exit: All critical tests executed.
+   - Exit: All critical and major tests executed.
 
 8. Risks & Mitigation  
-   - UI changes: rely on stable selectors.  
+   - UI changes: rely on stable selectors(implementing self-healing logic).  
    - Data issues: keep well-defined static data.
 
 9. Expected Outcome  

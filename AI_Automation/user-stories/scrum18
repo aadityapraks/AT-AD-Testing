@@ -1,0 +1,46 @@
+As an approved AP on the PwD Catalog Portal,
+I want to access a personalized dashboard upon logging in,
+so that I can easily view my account summary, monitor catalog activity, and perform key actions such as managing products, tracking approvals, and updating my organization’s information.
+ 
+Acceptance Criteria
+1.	Dashboard Access
+o	The AP is redirected to the AP Dashboard immediately after a successful login.
+o	Only approved and authenticated APs can access the dashboard.
+o	An AP who has not been approved sees a message indicating “Your registration is under review” instead of the dashboard.
+2.	Dashboard Page 
+o	The top section displays a welcome message with the AP’s organization name.
+o	It also has 4 buttons (hyperlink) 
+	One for Dashboard page (default page) 
+	For Help and Resources (will navigate to corresponding page).
+	For Profile (refer Scrum-155) and 
+	Logout to exit the portal.- refer Figma.
+o	Summary widgets show key metrics such as:
+	Total Products
+	Total Interest
+	Total Listings
+	Avg. Rating
+o	Refer Figma for orientation and styling of widgets.
+3.	4 Tabs (Segmented control/Horizontal tab navigation)- Clicking on each tab will navigates to the corresponding detailed page.
+o	Product Management
+o	Product Upload
+o	Interest Expressed
+o	Review and Ratings
+4.	Notification Centre- The dashboard will have a “Bell Icon” which displays recent notifications such as product approval, rejection, review requests, interests, etc. under bell icon- refer figma.
+o	Clicking on Bell icon (no. flag for new unread notifications) opens the pop up with list of few recent notifications.
+o	A button to mark all as read.
+o	Each notification includes a timestamp and Vendors can dismiss or mark notifications as read.
+o	A button to “View All Notifications” will navigate to detailed notification centre.
+o	Detailed notification centre/page will have these widgets- Total, Unread and Interest Notifications showing the count as well.
+o	Then all the categories as tabs- All, Unread, Interest, Updates, Reviews and Admin- refer Figma- and show the count of unread new notifications for each tab- refer Figma.
+o	List of all notifications, with mark as read button, time stamps, category and delete button- refer Figma.
+o	A back button on top to exit the notification centre, will navigate back to dashboard. 
+ 
+5.	UI and Accessibility
+o	The dashboard is responsive across desktop, tablet, and mobile devices.
+o	All interface elements follow WCAG 2.1 AA standards for accessibility.
+o	Proper alt text, focus indicators, and ARIA labels are implemented.
+6.	Performance and Reliability
+o	The dashboard loads key content within 3 seconds under normal conditions.
+o	Clear messages appear in case of downtime or data retrieval errors.
+o	Vendor sessions auto-timeout after a defined inactivity period (e.g., 30 minutes).
+

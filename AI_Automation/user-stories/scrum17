@@ -1,0 +1,45 @@
+As an AP interested in listing my assistive products or services on the Y4J platform,
+I want to click a registration link from the Y4J Hub portal and complete my onboarding form,
+so that my organization can be verified and added to the PwD catalog.
+ 
+Acceptance Criteria
+1.	Access and Navigation for RegistFration
+o	A visible “Register as Assistive Partner” link is available on the Y4J Hub portal.
+o	Clicking the link redirects the user to the AP Registration page of the PwD Catalog portal
+o	The page clearly mentions the purpose of registration and eligibility criteria for APs.
+2.	Sign in-
+o	A visible “Sign in with Swarajability” link is available on the Y4J Hub portal, for already registered APs or the one who are there on Swarajability platform.
+o	It will be a SSO login, single click will navigate APs to the Assistive Partner Portal’s dashboard.
+3.	Registration Form
+o	The registration form includes the following mandatory fields:
+	Organization Name
+	Type of Organization (Manufacturer / Distributor / NGO / Service Provider)
+	Contact Person Name
+	Official Email ID
+	Phone Number
+	Registered Address
+	Short Description of Offerings (devices, services, or products)
+o	Optional fields include:
+	Website / Social Media Links
+	Upload Organization Logo or Certificate
+4.	Form Behavior & Validation
+o	The form validates all required fields before submission.
+o	Error messages are displayed for missing or invalid inputs.
+o	The form cannot be submitted until all required data is entered correctly.
+5.	Submission Confirmation
+o	Upon successful submission, a confirmation message is displayed on screen (e.g., “Thank you for registering. The Y4J team will review your details and contact you shortly.”).
+o	An acknowledgment email is automatically sent to the registered email address summarizing the submitted information.
+6.	Admin Notification
+o	A notification email containing AP registration details is sent to the Y4J admin for verification.
+o	The AP’s registration record appears in the admin dashboard with status “Pending Review.”
+7.	Duplicate Registration Handling
+o	If a AP attempts to register using an email already in the system, a message appears: “This email is already registered. Please log in or contact Y4J support.”
+8.	Accessibility & UI Standards
+o	The registration page follows WCAG 2.1 AA accessibility standards.
+o	All form fields have proper labels, clear error prompts, and high-contrast text.
+o	The page supports screen readers and keyboard navigation.
+9.	Post-Submission Workflow 
+o	The admin reviews and approves or rejects the registration request. 
+o	Upon approval, the vendor receives an activation email with login details or next steps to list products/services. 
+o	Upon rejection, the vendor is notified with reason or guidance to reapply.
+
