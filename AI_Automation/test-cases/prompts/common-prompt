@@ -2,7 +2,8 @@ As a Software Tester, write detailed and automation-ready manual test cases base
 
 User Story Location:
 user stories path: user-stories/
-user story id: 
+user story id:
+figma design link:  https://www.figma.com/make/RnG8RNtZCAeLfgL4XaBGLW/Vendor---Distributor-Portal?node-id=0-1&p=f&t=hcpNuTokpxGOHHcH-0
 
 Use the following test case format:
 
@@ -19,6 +20,8 @@ Include positive, negative, and edge case scenarios
 Ensure full coverage of all acceptance criteria and user story functionality
 
 Write clear, specific steps that simulate real user actions and are suitable for UI automation
+
+Reference Figma designs (if provided) for exact UI element validation, positioning, styling, and component specifications
 
 Keep each test case atomic, focused, and structured for easy implementation
 
