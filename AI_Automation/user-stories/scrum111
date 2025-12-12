@@ -1,0 +1,91 @@
+User Story: As a vendor, I want to view and manage all my product listings from a centralized dashboard so that I can easily track submission statuses, take necessary actions, and keep my offerings up to date.
+Acceptance Criteria
+1. Dashboard Overview
+1.	The system shall display a dashboard header containing four summary cards:
+o	Total Products
+o	Total Interest
+o	Total Listings
+o	Avg. Rating
+o	Each card shows label, count, and (if applicable) a small trend indicator.
+2.	The system shall display the navigation tabs exactly as per UI:
+o	Product Upload
+o	Product Management
+o	Interest Expressed
+o	Listing (selected by default for this screen)
+o	Reviews & Ratings
+________________________________________
+2. Product Listing Section - Header
+3.	The system shall show a section titled "Product Listing" with a subheading describing:
+“Track your product listing submissions and approval status.”
+4.	The system shall show a subsection “Your Product Listings” with supporting text:
+“Review the status of all your product submissions.”
+________________________________________
+3. Filters and Search
+5.	The system shall provide listing status filter pills with counts:
+o	All
+o	Under Review
+o	Approved
+6.	When the vendor selects/deselects a status filter pill:
+o	The listing results shall update instantly.
+o	Multiple filters may be active simultaneously.
+7.	The system shall provide a search bar labeled “Search by product name…”
+o	Typing in the search bar shall filter products by name (supports partial match).
+8.	The system shall provide a dropdown for category filtering (“All Categories”).
+o	Selecting a category shall show only products belonging to that category.
+9.	The system shall provide a sorting dropdown (“Newest First”).
+o	Sorting options shall include at least:
+• Newest First
+• Oldest First
+o	The selected option shall reorder the listings accordingly.
+________________________________________
+4. Product List Display
+10.	Each product listing card shall display the following elements:
+•	Product icon (as per category)
+•	Product name
+•	Category label
+•	Submission date
+•	Status indicator (color-coded)
+11.	The system shall use color-coded left borders for cards:
+•	Blue → Under Review / In Progress
+•	Orange → Pending or Awaiting Documentation
+•	Green → Approved
+12.	Each card shall display a status label with text matching backend status:
+•	Under Initial Review
+•	Awaiting Technical Documentation Review
+•	Approved
+•	Other statuses as applicable
+13.	Cards associated with “Official AT” must show the appropriate badge (e.g., “Official AT”).
+14.	Clicking anywhere on a product card shall open the product details screen (out of scope for this story).
+________________________________________
+5. Status Icon & Error Indicators
+15.	For cards with pending or error-like statuses, the system shall display the small orange alert icon as shown in the UI.
+•	Tooltip or hover text (if implemented) must provide explanation.
+________________________________________
+6. UI Persistence & Interaction
+16.	The system shall ensure that filter selections, search input, and sorting choices remain applied when navigating within the Listing page.
+17.	Changing any filter, search input, or sorting:
+•	Shall refresh results without page reload.
+________________________________________
+7. Approval Process Panel
+18.	The bottom section of the screen shall display a static information panel titled “Approval Process Timeline” showing:
+•	Standard product listing timeline (1–2 business days)
+•	Official AT listing timeline (3–5 business days)
+•	Notification note (“You’ll receive email notifications for status updates”)
+19.	This panel shall remain fixed at the bottom of the listing results within the page layout.
+________________________________________
+8. Empty State Handling
+20.	If filtered results produce zero listings:
+•	The system shall show a clear empty state message (e.g., “No products found.”).
+________________________________________
+9. Role & Access
+21.	Only authenticated vendor users shall access this dashboard screen.
+AC10: UI and Accessibility
+•	The page is responsive across desktop, tablet, and mobile devices.
+•	All interface elements follow WCAG 2.1 AA standards for accessibility.
+•	Proper alt text, focus indicators, and ARIA labels are implemented.
+AC11: Performance and Reliability
+•	The page loads key content within 3 seconds under normal conditions.
+•	Clear messages appear in case of downtime or data retrieval errors.
+•	PWD sessions auto-timeout after a defined inactivity period (e.g., 30 minutes).
+ 
+

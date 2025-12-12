@@ -1,0 +1,52 @@
+As a registered and approved AP on the PwD Catalog Portal,
+I want to view how my uploaded product details appear to PwD users on the catalog,
+so that I can ensure that the information, images, video, and specifications are displayed correctly, are accessibility-compliant, and provide a clear understanding of the product’s features.
+Acceptance Criteria
+1.	Access to Preview Mode
+o	The AP can access a “View Product” option after uploading or editing a product from Product Management page, actions column.
+o	The view opens the public view template used by PwD users, showing the product as it would appear in the catalog.
+2.	Catalog Card Display
+o	The preview shows the Product Details exactly as visible to PwD users in the catalog, including:
+	Product name
+	Short description
+	Primary image
+o	AP can confirm that the text length and image cropping appear correctly in card format.
+3.	Full Product Details Page
+o	The preview allows switching to the product details page view, displaying:
+	Product name and category
+	Short and detailed description
+	Main and additional images
+	Specifications
+	Availability information
+	Demo video (if uploaded)
+o	APs can review how the layout presents the content and confirm that all information loads correctly.
+4.	Media Verification
+o	APs can verify that:
+	The main image is properly displayed on top of the page.
+	All additional images appear in a gallery or carousel format.
+	Alt text (if entered during upload) appears correctly in accessibility tools.
+	The demo video plays correctly with captions or transcripts if available.
+5.	Specifications and Availability
+o	Specifications are shown in a clean, structured layout (key-value or bullet points).
+o	Geographical availability is displayed accurately as “All Areas” or as per selected regions.
+o	Product quantity or “Made to Order” label is visible to PwD users as entered by the vendor.
+6.	Accessibility Compliance Indicators
+o	The preview mode highlights accessibility features such as:
+	Screen-reader friendly structure.
+	Alt text availability for images.
+	Proper heading hierarchy for text sections.
+	Contrast and text visibility compliance.
+o	The AP receives a short note or status badge indicating accessibility readiness (e.g., “Compliant / Minor Adjustments Suggested”).
+7.	Edit and Update Options
+o	From the preview screen, the AP can return to edit mode to modify descriptions, replace images, or update specifications.
+o	Any edits are auto-saved as draft until resubmitted for admin approval.
+8.	Post-Approval Visibility
+o	Once the product is approved and published, the AP can view the live version of the product as it appears to PwD users on the public catalog.
+o	A “View Live Product” link is available on the vendor dashboard under published items.
+9.	System Feedback
+o	If an image, video, or text fails to load properly in preview, the system shows a clear error message (e.g., “Image exceeds allowed size” or “Video format not supported”).
+o	APs can re-upload or correct the content immediately from the same view.
+10.	UI and Accessibility for Vendors
+o	The preview mode itself follows accessibility standards so APs with disabilities can also review their products easily.
+o	The interface supports keyboard navigation, screen readers, and tooltips for key sections (e.g., “This is how your short description appears in the PwD catalog”).
+
