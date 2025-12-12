@@ -1,0 +1,9 @@
+User Story Name: scrum17
+Read the above user-story from the "user-stories" folder.
+Follow ALL formatting, structure, and rules from the "test_cases\prompts\common_prompt" file.
+Generate only the most important and required test cases.
+Do not repeat any test case.
+Keep the output minimal and optimized.
+Cover critical positive, negative, and validation scenarios only.
+Save the generated test cases into the "test_cases" folder as a new file with the SAME name as the user story.
+Output only the saved test cases content.
