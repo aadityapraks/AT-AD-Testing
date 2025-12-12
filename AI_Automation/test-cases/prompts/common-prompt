@@ -1,30 +1,28 @@
-As a Software Tester, write detailed and automation-ready manual test cases based on the user story and acceptance criteria given below. The test cases must be compatible with Playwright and MCP server for future automation.
-
+  As a Software Tester, write detailed and automation-ready manual test cases based on the user story and acceptance criteria given below. The test cases must be compatible with Playwright and MCP server for future automation.
+ 
 User Story Location:
 user stories path: user-stories/
 user story id:
-figma design link:  https://www.figma.com/make/RnG8RNtZCAeLfgL4XaBGLW/Vendor---Distributor-Portal?node-id=0-1&p=f&t=hcpNuTokpxGOHHcH-0
-
+ 
 Use the following test case format:
-
+ 
 Test Case ID:
 Test Name:
 Precondition: [Specific precondition related to the feature being tested]
 Steps:
 Expected Result:
-
+ 
 Instructions:
-
+ 
 Include positive, negative, and edge case scenarios
-
+ 
 Ensure full coverage of all acceptance criteria and user story functionality
-
+ 
 Write clear, specific steps that simulate real user actions and are suitable for UI automation
-
-Reference Figma designs (if provided) for exact UI element validation, positioning, styling, and component specifications
-
+ 
 Keep each test case atomic, focused, and structured for easy implementation
-
+ 
 Create the test case file in the path given bellow
-
+ 
 Test case path: test-cases/
+ 
