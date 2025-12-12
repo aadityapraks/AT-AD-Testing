@@ -25,4 +25,6 @@ Keep each test case atomic, focused, and structured for easy implementation
 Create the test case file in the path given bellow
  
 Test case path: test-cases/
+
+Output Format: Save test cases as markdown (.md) files for better automation compatibility
  
